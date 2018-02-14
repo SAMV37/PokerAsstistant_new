@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sb_pocket_cards"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0d2945"
+    android:orientation="vertical"
+    tools:context="com.Sam.samvel.pokerasstistant.SB_pocket_cards">
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/back"
+        android:onClick="onBack"
+        android:id="@+id/back" />
+    <TextView
+        android:id="@+id/cardsquest"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/Where_do_you_see_your_cards"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/red"
+        android:layout_height="50dp"
+        android:background="@drawable/button_bg_style"
+        android:layout_width="match_parent"
+        android:text="QQ  KK  AA  AK"
+        android:textSize="30dp"
+        android:layout_marginTop="60dp"
+        android:onClick="onRed"/>
+
+    <Button
+        android:id="@+id/black"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:text="22+ A2s+ A8+"
+        android:textSize="30dp"
+        android:background="@drawable/button_bg_style"
+        android:onClick="onBlack"
+        android:layout_marginTop="20dp" />
+
+
+    <Button
+        android:id="@+id/black2"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:text="K9s Qt+ J9s JT+"
+        android:textSize="30dp"
+        android:background="@drawable/button_bg_style"
+        android:onClick="onBlack"
+        android:layout_marginTop="20dp" />
+    <Button
+        android:id="@+id/other"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:text="@string/Other"
+        android:background="@drawable/button_bg_style"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:onClick="onOther"/>
+</LinearLayout>

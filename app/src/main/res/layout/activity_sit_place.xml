@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sit_place"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0d2945"
+    android:orientation="vertical"
+    tools:context="com.Sam.samvel.pokerasstistant.Sit_place">
+
+    <ImageButton
+        android:id="@+id/home_button"
+        android:layout_height="40dp"
+        android:layout_width="40dp"
+        android:background="@mipmap/ic_home_white_48dp"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/Where_are_you_sitting"
+        android:textSize="@dimen/sit_place_text_size"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:id="@+id/sit_quest" />
+
+            <Button
+                android:layout_height="50dp"
+                android:layout_width="100dp"
+                android:text="UTG"
+                android:textSize="30dp"
+                android:id="@+id/utg"
+                android:background="@drawable/button_design"/>
+
+            <Button
+                android:layout_height="50dp"
+                android:layout_width="100dp"
+                android:text="MP"
+                android:textSize="30dp"
+                android:background="@drawable/button_design"
+                android:id="@+id/mp"/>
+
+            <Button
+                android:layout_height="50dp"
+                android:layout_width="100dp"
+                android:text="CO"
+                android:textSize="30dp"
+                android:background="@drawable/button_design"
+                android:id="@+id/co"/>
+
+            <Button
+                android:layout_height="50dp"
+                android:layout_width="100dp"
+                android:text="BT"
+                android:textSize="30dp"
+                android:background="@drawable/button_design"
+                android:id="@+id/bt"/>
+
+            <Button
+                android:layout_height="50dp"
+                android:layout_width="100dp"
+                android:text="SB"
+                android:textSize="30dp"
+                android:background="@drawable/button_design"
+                android:id="@+id/sb"/>
+
+            <Button
+                android:layout_height="50dp"
+                android:layout_width="100dp"
+                android:text="BB"
+                android:textSize="30dp"
+                android:background="@drawable/button_design"
+                android:id="@+id/bb"/>
+
+</RelativeLayout>

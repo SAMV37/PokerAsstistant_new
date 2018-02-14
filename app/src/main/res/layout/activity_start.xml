@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_start"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0d2945"
+    tools:context="com.Sam.samvel.pokerasstistant.Start">
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:background="@drawable/start_button" />
+
+    <Button
+        android:id="@+id/table_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Table"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:background="@drawable/button_design" />
+
+    <Button
+        android:id="@+id/share_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:background="@drawable/button_design" />
+
+    <Button
+        android:id="@+id/rate_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rate"
+
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:background="@drawable/button_design"/>
+
+    <Button
+        android:id="@+id/eng_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ENG"
+
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:background="@drawable/button_design"/>
+
+    <Button
+        android:id="@+id/rus_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RUS"
+
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:background="@drawable/button_design"/>
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/logo"
+        android:background="@mipmap/ic_launcher"/>
+
+</RelativeLayout>

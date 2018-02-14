@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_bb_pocket_cards_red_call"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0d2945"
+    tools:context="com.Sam.samvel.pokerasstistant.BB_pocket_cards_red_call">
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/back"
+        android:onClick="onBack"
+        android:id="@+id/back" />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="3Bet(3BB + BB*Caller)"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/back"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/wtdquest"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/What_opponents_did_after_you_raised"
+        android:textSize="35dp"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/wtdquest"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/opponentactionquest"/>
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="100dp"
+        android:background="@drawable/button_bg_style"
+        android:text="Fold"
+        android:id="@+id/fold"
+        android:textSize="25dp"
+        android:layout_below="@+id/opponentactionquest"
+        android:layout_marginTop="100dp"
+        android:onClick="onFold"/>
+
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="100dp"
+        android:text="Call"
+        android:background="@drawable/button_bg_style"
+        android:id="@+id/call"
+        android:textSize="25dp"
+        android:onClick="onCall"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/opponentactionquest"
+        android:layout_marginTop="100dp" />
+
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="100dp"
+        android:text="Raise"
+        android:background="@drawable/button_bg_style"
+        android:id="@+id/raise"
+        android:textSize="25dp"
+        android:layout_below="@+id/opponentactionquest"
+        android:layout_marginTop="100dp"
+        android:layout_alignParentRight="true"
+        android:onClick="onRaise" />
+</RelativeLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.Sam.samvel.pokerasstistant">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iconka"
+        android:label="SSS Poker Bot"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:label">
+        <activity android:name=".Start">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.Default" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Sit_place" />
+        <activity android:name=".UTG_pocket_cards" />
+        <activity android:name=".UTG_pocket_cards_red" />
+        <activity android:name=".Won" />
+        <activity android:name=".All_In" />
+        <activity android:name=".UTG_pocket_cards_black" />
+        <activity android:name=".Fold" />
+        <activity android:name=".MP_pocket_cards" />
+        <activity android:name=".MP_pocket_cards_red" />
+        <activity android:name=".MP_pocket_cards_red_fold" />
+        <activity android:name=".MP_pocket_cards_black" />
+        <activity android:name=".MP_pocket_cards_black_fold" />
+        <activity android:name=".CO_pocket_cards" />
+        <activity android:name=".CO_pocket_cards_red" />
+        <activity android:name=".CO_pocket_cards_black" />
+        <activity android:name=".CO_pocket_cards_red_fold" />
+        <activity android:name=".CO_pocket_cards_black_fold" />
+        <activity android:name=".MP_pocket_cards_red_call" />
+        <activity android:name=".MP_pocket_cards_black_call" />
+        <activity android:name=".CO_pocket_cards_red_call" />
+        <activity android:name=".CO_pocket_cards_black_call" />
+        <activity android:name=".BT_pocket_cards" />
+        <activity android:name=".BT_pocket_cards_red" />
+        <activity android:name=".BT_pocket_cards_black" />
+        <activity android:name=".BT_pocket_cards_red_fold" />
+        <activity android:name=".BT_pocket_cards_black_fold" />
+        <activity android:name=".BT_pocket_cards_red_call" />
+        <activity android:name=".BT_pocket_cards_black_call" />
+        <activity android:name=".Flop" />
+        <activity android:name=".SB_pocket_cards" />
+        <activity android:name=".SB_pocket_cards_red" />
+        <activity android:name=".SB_pocket_cards_black" />
+        <activity android:name=".SB_pocket_cards_red_fold" />
+        <activity android:name=".SB_pocket_cards_red_call" />
+        <activity android:name=".SB_pocket_cards_black_fold" />
+        <activity android:name=".SB_pocket_cards_black_call" />
+        <activity android:name=".BB_pocket_cards" />
+        <activity android:name=".BB_pocket_cards_red" />
+        <activity android:name=".BB_pocket_cards_black" />
+        <activity android:name=".BB_pocket_cards_red_call" />
+        <activity android:name=".BB_pocket_cards_black_call" />
+        <activity android:name=".Tut" />
+        <activity
+            android:name=".Table"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity android:name=".BB_pocket_cards_other" />
+        <activity android:name=".Check" />
+        <activity android:name=".Check_or_Fold" />
+        <!-- This meta-data tag is required to use Google Play Services. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <!-- Include the AdActivity configChanges and theme. -->
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+    </application>
+
+</manifest>

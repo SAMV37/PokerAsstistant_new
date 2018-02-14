@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_won"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0d2945"
+    tools:context="com.Sam.samvel.pokerasstistant.Won">
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/You_won"
+        android:textSize="40dp"
+        android:id="@+id/won"
+        android:textColor="#ff0000"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/Congrats"
+        android:textSize="40dp"
+        android:layout_below="@+id/won"
+        android:textColor="#ff0000"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="100dp"
+        android:text="AGAIN"
+        android:background="@drawable/button_bg_style"
+        android:onClick="onAgain"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/button3" />
+</RelativeLayout>

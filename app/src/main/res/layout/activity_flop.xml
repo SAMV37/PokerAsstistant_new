@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_flop"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0d2945"
+    android:orientation="vertical"
+    tools:context="com.Sam.samvel.pokerasstistant.Flop">
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/Go_to_flop"
+        android:textSize="40dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/wtdquest"/>
+
+    <TextView
+        android:id="@+id/opponentactionquest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/What_hands_do_you_have"
+        android:textColor="#ffffff"
+        android:layout_marginTop="40dp"
+        android:textSize="35dp" />
+
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:text="Top Pairs + J kicker"
+        android:id="@+id/p1"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_bg_style"
+        android:textSize="25dp"
+        android:layout_below="@+id/opponentactionquest"
+        android:onClick="onPair"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="120dp"
+        android:text="2 pairs"
+        android:background="@drawable/button_bg_style"
+        android:id="@+id/p2"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"
+        android:layout_below="@+id/p1"
+        android:onClick="onPair"/>
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="120dp"
+        android:text="Flash"
+        android:background="@drawable/button_bg_style"
+        android:id="@+id/p2.1"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/p1"
+        android:onClick="onPair"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="200dp"
+        android:text="Full house"
+        android:id="@+id/p3"
+        android:background="@drawable/button_bg_style"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"
+        android:layout_below="@+id/p2"
+        android:onClick="onPair"/>
+
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="120dp"
+        android:text="Street"
+        android:background="@drawable/button_bg_style"
+        android:id="@+id/p2.2"
+        android:textSize="25dp"
+        android:onClick="onPair"
+        android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="180dp"
+        android:text="4 of a kind"
+        android:background="@drawable/button_bg_style"
+        android:id="@+id/p3.1"
+        android:textSize="25dp"
+        android:onClick="onPair" />
+
+    <Button
+        android:id="@+id/tris"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:onClick="onPair"
+        android:background="@drawable/button_bg_style"
+        android:text="3 of a kind"
+        android:textSize="25dp" />
+    </LinearLayout>
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:text="Other"
+        android:textSize="20dp"
+        android:background="@drawable/button_bg_style"
+        android:id="@+id/other"
+        android:onClick="onOther"
+        android:layout_marginTop="25dp"/>
+
+</LinearLayout>
+

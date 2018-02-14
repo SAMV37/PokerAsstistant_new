@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_co_pocket_cards_black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0d2945"
+    tools:context="com.Sam.samvel.pokerasstistant.CO_pocket_cards_black">
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/back"
+        android:onClick="onBack"
+        android:id="@+id/back" />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/What_opponents_did_before_you"
+        android:textSize="35dp"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/back"
+        android:layout_marginTop="20dp"
+        android:id="@+id/oppaction"/>
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="100dp"
+        android:background="@drawable/button_bg_style"
+        android:text="Fold"
+        android:layout_centerVertical="true"
+        android:onClick="onFold"/>
+
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="100dp"
+        android:background="@drawable/button_bg_style"
+        android:text="Call"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/button"
+        android:onClick="onCall"/>
+
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="100dp"
+        android:text="Raise"
+        android:background="@drawable/button_bg_style"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/button2"
+        android:onClick="onRaise"/>
+</RelativeLayout>

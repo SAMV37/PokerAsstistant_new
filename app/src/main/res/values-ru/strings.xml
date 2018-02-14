@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Poker asstistant</string>
+    <string name="All_In">All in!</string>
+    <string name="Congrats">Поздравляем!!!</string>
+    <string name="Check">Check</string>
+    <string name="Go_to_flop">Переходим на flop</string>
+    <string name="Fold">Fold!</string>
+    <string name="How_to_play">Как играть</string>
+    <string name="Open_raise_3xBB">Открывание с повышением 3xBB</string>
+    <string name="Rate">Оценить</string>
+    <string name="Share">Поделиться</string>
+    <string name="Start">Старт</string>
+    <string name="Table">Стол</string>
+    <string name="What_hands_do_you_have">Вашы корманные пары</string>
+    <string name="What_opponents_did_after_you_raised">Дествия оппонента после вашей ставки</string>
+    <string name="What_opponents_did_before_you">Действия оппонентов перед вами</string>
+    <string name="What_others_did">Что другие сделали?</string>
+    <string name="Where_are_you_sitting">Где вы сидите?</string>
+    <string name="Where_do_you_see_your_cards">В какой группе вашы карты</string>
+    <string name="You_Will_Win">Вы поведите</string>
+    <string name="You_have_chance_to_win">У вас есть шанс выиграть</string>
+    <string name="You_won">Вы победили</string>
+    <string name="Your_cards_arent_that_good">Карты - мусор</string>
+    <string name="Other">Другие</string>
+    <string name="Again">Опять</string>
+</resources>

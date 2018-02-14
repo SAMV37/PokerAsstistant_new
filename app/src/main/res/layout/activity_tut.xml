@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tut"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0d2945"
+    tools:context="com.Sam.samvel.pokerasstistant.Tut">
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="UTG = Early Position"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/utg"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="MP = Middle Position"
+        android:id="@+id/mp"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/utg"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="CO = Cut Off"
+        android:layout_below="@+id/mp"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:id="@+id/co"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="BT = Buttom"
+        android:id="@+id/bt"
+        android:layout_below="@+id/co"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="SB = Small Blind"
+        android:id="@+id/sb"
+        android:layout_below="@+id/bt"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="BB = Big Blind"
+        android:id="@+id/bb"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/sb"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="QQ,KK,AA,Ak = respective pairs of cards"
+        android:textSize="20dp"
+        android:id="@+id/QQ"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/bb"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="NN+ = pairs starting from N"
+        android:textSize="20dp"
+        android:id="@+id/NN"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/QQ"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="LNs+ = Suited L and N types of cards and higher"
+        android:textSize="15dp"
+        android:textColor="#ffffff"
+        android:id="@+id/LNs"
+        android:layout_below="@+id/NN"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="LN+ = Non suited L and N types of cards and higher"
+        android:textSize="15dp"
+        android:id="@+id/LN"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/LNs"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="OK"
+        android:background="@drawable/button_bg_style"
+        android:id="@+id/ok"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="35dp"
+        android:onClick="onOk"/>
+</RelativeLayout>
